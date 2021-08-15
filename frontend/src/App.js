@@ -1,12 +1,15 @@
-import React from "react";
+import React, {useState, useEffect, useRef} from "react";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import "./App.css"
+
 import About from "./components/pages/About"
 import Home from "./components/pages/Home"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
+
 function App() {
+
   return (
     <Router>
     <div className="App">

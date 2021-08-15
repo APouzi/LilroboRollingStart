@@ -23,12 +23,33 @@ body {
   color: #333;
 }
 
+.footer {
+  color: 'white';
+  background-color: '#4a1cb6';
+  text-align: center;
+}
+
 a {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-
+.map-container {
+  height: 400px;
+  }
+  .sidebar {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #ffffff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: center;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+  }
+  
 
 a:hover {
   color: #666;
@@ -417,9 +438,7 @@ table th {
     text-align: center;
     justify-content: center;
   }
-  .footer {
-    color: 'white';
-    background-color: '#4a1cb6';
-  }
+
+  
   
 }
